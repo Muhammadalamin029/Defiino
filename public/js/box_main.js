@@ -301,7 +301,7 @@ document.getElementById("subscribeYouTube").addEventListener("click", () => {
 });
 
 document.getElementById("followTelegram").addEventListener("click", () => {
-  window.open("https://t.me/your_channel", "_blank");
+  window.open("https://t.me/DefiInu_io", "_blank");
   addCoins(25000, "followTelegram");
 });
 
@@ -310,7 +310,10 @@ document.getElementById("startTelegramBot").addEventListener("click", () => {
 });
 
 document.getElementById("followInstagram").addEventListener("click", () => {
-  window.open("https://www.instagram.com/your_page", "_blank");
+  window.open(
+    "https://www.instagram.com/prince_perez_blogs_?igsh=eWh1bWethZHl2N3a=",
+    "_blank"
+  );
 
   addCoins(25000, "followInstagram");
 });
