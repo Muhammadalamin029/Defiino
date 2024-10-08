@@ -297,22 +297,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.getElementById("subscribeYouTube").addEventListener("click", () => {
   window.open("https://www.youtube.com/@defiinu", "_blank");
-  addCoins(100000, "subscribeYouTube");
+  addCoins(25000, "subscribeYouTube");
 });
 
 document.getElementById("followTelegram").addEventListener("click", () => {
   window.open("https://t.me/your_channel", "_blank");
-  addCoins(100000, "followTelegram");
+  addCoins(25000, "followTelegram");
 });
 
 document.getElementById("startTelegramBot").addEventListener("click", () => {
-  addCoins(100000, "startTelegramBot");
+  addCoins(25000, "startTelegramBot");
 });
 
 document.getElementById("followInstagram").addEventListener("click", () => {
   window.open("https://www.instagram.com/your_page", "_blank");
 
-  addCoins(100000, "followInstagram");
+  addCoins(25000, "followInstagram");
 });
 
 function addCoins(coins, action) {
